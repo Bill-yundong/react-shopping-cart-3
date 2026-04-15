@@ -4,8 +4,8 @@ export interface StyleClosetTheme {
 }
 
 const colors = {
-  primary: '#1b1a20',
-  secondary: '#eabf00',
+  primary: undefined as any,
+  secondary: undefined as any,
 };
 
 const breakpoints = {

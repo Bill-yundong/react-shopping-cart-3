@@ -10,15 +10,7 @@ const Filter = () => {
   const selectedCheckboxes = new Set(filters);
 
   const toggleCheckbox = (label: string) => {
-    if (selectedCheckboxes.has(label)) {
-      selectedCheckboxes.delete(label);
-    } else {
-      selectedCheckboxes.add(label);
-    }
-
-    const filters = Array.from(selectedCheckboxes) as [];
-
-    filterProducts(filters);
+    return;
   };
 
   const createCheckbox = (label: string) => (
